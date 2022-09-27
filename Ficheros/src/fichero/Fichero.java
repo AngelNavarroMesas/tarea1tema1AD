@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Fichero {
 
 	public static void main(String[] args) throws IOException {
-		File fichero=new File("D:\\acceso a datos\\fichero1.txt");
+		File fichero=new File("D:\\acceso a datos\\ficheros\\fichero1.txt");
 		FileReader fic=new FileReader(fichero);
 		int i;
 		char[] letras=new char[(int) fichero.length()];
