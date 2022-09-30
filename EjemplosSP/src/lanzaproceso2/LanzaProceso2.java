@@ -9,7 +9,7 @@ public class LanzaProceso2 {
 
 	public static void main(String[] args) {
 		ProcessBuilder pb = new ProcessBuilder("java", "HolaMundo.java");
-		pb.directory(new File("C:\\Users\\anavarro\\eclipse-workspace\\EjemplosSP\\src\\lanzaproceso2"));
+		pb.directory(new File("C:\\Users\\anavarro\\git\\repository\\EjemplosSP\\src\\lanzaproceso2"));
 		System.out.println("Voy a lanzar el proceso");
 		pb.inheritIO();
 		Map<String, String> mapa = pb.environment();

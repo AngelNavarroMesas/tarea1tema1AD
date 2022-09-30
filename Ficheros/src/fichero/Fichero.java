@@ -12,7 +12,7 @@ public class Fichero {
 		int i;
 		char[] letras=new char[(int) fichero.length()];
 		while ((i = fic.read(letras,0,2)) != -1) { //se va leyendo un carÃ¡cter hasta que lea -1
-			System.out.print(letras); //cast a char
+			System.out.println(letras); //cast a char
 		}
 
 		fic.close(); //cerrar fichero  
